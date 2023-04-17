@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissTimingBowling.Game", "SwissTimingBowling.Game\SwissTimingBowling.Game.csproj", "{CE8A65C7-F8A7-44BB-ADC2-BF217A4B084F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissTimingBowling.Application", "SwissTimingBowling.Application\SwissTimingBowling.Application.csproj", "{C6A0375E-73EC-4955-811D-67E193CB546F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissTimingBowling.Test", "SwissTimingBowling.Test\SwissTimingBowling.Test.csproj", "{5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE8A65C7-F8A7-44BB-ADC2-BF217A4B084F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8A65C7-F8A7-44BB-ADC2-BF217A4B084F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8A65C7-F8A7-44BB-ADC2-BF217A4B084F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8A65C7-F8A7-44BB-ADC2-BF217A4B084F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A0375E-73EC-4955-811D-67E193CB546F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A0375E-73EC-4955-811D-67E193CB546F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A0375E-73EC-4955-811D-67E193CB546F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A0375E-73EC-4955-811D-67E193CB546F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

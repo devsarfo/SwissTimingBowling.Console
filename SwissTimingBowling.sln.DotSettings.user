@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=990b9ece_002D663e_002D4d95_002Dbcc5_002D91ca1cc71cf0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TotalScore_After_All_GutterBalls_TotalScore_Is_0" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405::net6.0::SwissTimingBowling.Test.BowlingGameUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::5FEE9DD3-DF0A-432E-BE1F-A1756C1C9405::net6.0::SwissTimingBowling.Test.FrameUnitTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

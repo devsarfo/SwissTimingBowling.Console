@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SwissTimingBowling.Application/1.0.0": {
+        "dependencies": {
+          "SwissTimingBowling.Game": "1.0.0"
+        },
+        "runtime": {
+          "SwissTimingBowling.Application.dll": {}
+        }
+      },
+      "SwissTimingBowling.Game/1.0.0": {
+        "runtime": {
+          "SwissTimingBowling.Game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SwissTimingBowling.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SwissTimingBowling.Game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
