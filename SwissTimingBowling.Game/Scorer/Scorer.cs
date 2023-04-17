@@ -65,11 +65,9 @@ public class Scorer : IScorer
             return nextFrame.Rolls.Take(2).ToList();
         }
             
-        //two given strikes and then the pins on the first roll of the third frame
         var firstRoll = nextFrame.Rolls[0];
-        var secondRoll = (twoFrameFromMe.Rolls.Count > 0)  ? twoFrameFromMe.Rolls[0] : 0;
-                
-        // could just be return new List<int>(){10,10);
+        var secondRoll = twoFrameFromMe.Rolls.Count > 0  ? twoFrameFromMe.Rolls[0] : 0;
+        
         return new List<int?>() { firstRoll, secondRoll };
     }
 }

@@ -1,6 +1,5 @@
 using System;
 using NUnit.Framework;
-using SwissTimingBowling.Game.Bowling;
 using SwissTimingBowling.Game.Frame;
 using SwissTimingBowling.Game.Scorer;
 

@@ -25,7 +25,7 @@ public class Frame : IFrame
     public void AddRoll(int pinsHit)
     {
         if (Type != FrameType.Open) throw new Exception("This frame is already closed");
-        if (_rolls.Count >= MaxRolls) throw new Exception($"No more rolls can be added to this frame");
+        if (_rolls.Count >= MaxRolls) throw new Exception("No more rolls can be added to this frame");
         
         ValidateRollInRange(pinsHit:pinsHit);
         _rolls.Add(pinsHit);

@@ -21,7 +21,7 @@ public class BowlingGameUnitTest
     }
     
     [Test]
-    public void TotalScore_After_All_Strikes_TotalScoreIs300()
+    public void Total_Score_After_All_Strikes_Is_300()
     {
         _roll.SetNextRoll(10);
 
@@ -34,7 +34,7 @@ public class BowlingGameUnitTest
     }
 
     [Test]
-    public void TotalScore_After_All_5s_Total_Score_Is_150()
+    public void Total_Score_After_All_5s_Is_150()
     {
         var rolls = new List<int>(){ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
         
@@ -48,7 +48,7 @@ public class BowlingGameUnitTest
     }
     
     [Test]
-    public void TotalScore_After_All_GutterBalls_TotalScore_Is_0()
+    public void Total_Score_After_All_Gutter_Balls_Is_0()
     {
         _roll.SetNextRoll(0);
         
